@@ -18,17 +18,16 @@ This website provides:
 ---
 
 ## Repository Structure
-.
-├── index.md # Main landing page
-├── pages/ # Additional pages (comparisons, results, etc.)
-│ └── comparisons.md
-├── assets/
-│ └── images/ # Figures and schematics
-│ └── model-schematic.png
-├── _layouts/ # Jekyll HTML layouts (optional)
-├── _includes/ # Reusable components (optional)
-├── _config.yml # Site configuration
-└── README.md
+- `index.md` — Main landing page  
+- `pages/` — Additional pages (comparisons, results, etc.)  
+  - `comparisons.md`  
+- `assets/`  
+  - `images/` — Figures and schematics  
+    - `model-schematic.png`  
+- `_layouts/` — Jekyll HTML layouts (optional)  
+- `_includes/` — Reusable components (optional)  
+- `_config.yml` — Site configuration  
+- `README.md` 
 
 
 ---
