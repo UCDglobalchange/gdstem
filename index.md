@@ -29,6 +29,6 @@ The purpose of this website is to provide a “roadmap” of the various feature
 
 ## Model Schematic
 
-![GDSTEM schematic](assets/images/model-schematic.png)
+![GDSTEM schematic](assets/images/gdstem.png)
 
 *Figure 1. Conceptual schematic of the GDSTEM model showing major components and fluxes.*
