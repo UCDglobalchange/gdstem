@@ -25,11 +25,3 @@ GDSTEM represents a version of TEM that is designed to be run globally, although
 ## Purpose of This Website
 
 The purpose of this website is to provide a “roadmap” of the various features of GDSTEM, the team of developers, the past, current, and future activities focusing on model development and use, and the products using the model.
-
----
-
-## Model Schematic
-
-![GDSTEM schematic](assets/images/gdstem-schematic.png)
-
-*Figure 1. Conceptual schematic of the GDSTEM model showing major components and fluxes.*
