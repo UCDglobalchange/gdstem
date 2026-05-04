@@ -1,57 +1,55 @@
 ---
-layout: default
+layout: page
 title: Team
+banner: /assets/images/banners/team-banner.jpeg
+banner_alt: Cropland in Kansas
 ---
 
-# GDSTEM Development Team
-
-## Principal Investigator
-
-### Erwan Monier
-![Erwan Monier](assets/images/team/emonier.jpg)
-
-Professor, University of California, Davis  
-Global Environmental Change Lab
-
-Research interests:
-- Climate change impacts
-- Earth system modeling
-- Carbon cycle dynamics
+# Team
 
 ---
 
-## Core Developers
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/bfelzer" alt="Ben Felzer">
+  </div>
+  <div class="team-info">
+    <h3>Ben Felzer</h3>
+    <p>Associate Professor / Lehigh University</p>
+    <p>Lead developer of TEM-Hydro, the predecessor of GDSTEM</p>
+  </div>
+</div>
 
-### [Name]
-![Team member](assets/images/team/member1.jpg)
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/emonier.jpg" alt="Erwan Monier">
+  </div>
+  <div class="team-info">
+    <h3>Erwan Monier</h3>
+    <p>Associate Professor / University of California, Davis</p>
+    <p>Co-develop of GDSTEM, focusing on the development of toolkits for global simulation, benchmarking, and automated calibration</p>
+  </div>
+</div>
 
-Short bio here.
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/ylu.jpg" alt="Yanyan Lu">
+  </div>
+  <div class="team-info">
+    <h3>Erwan Monier</h3>
+    <p>Graduate Student / University of California, Davis</p>
+    <p>Currently implementing and evaluating the CLM fire module in GDSTEM</p>
+  </div>
+</div>
 
----
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/adudukalov.jpg" alt="Artem Dudukalov">
+  </div>
+  <div class="team-info">
+    <h3>Erwan Monier</h3>
+    <p>Undergraduate Student / University of California, Davis</p>
+    <p>Currently developing an automated Bayesian calibration framework</p>
+  </div>
+</div>
 
-### [Name]
-![Team member](assets/images/team/member2.jpg)
-
-Short bio here.
-
----
-
-## Collaborators
-
-- Collaborator 1 — Institution
-- Collaborator 2 — Institution
-
----
-
-## Students
-
-- Graduate Student 1
-- Graduate Student 2
-
----
-
-## Join Us
-
-We are always interested in collaborations and student involvement.
-
-Contact: emonier@ucdavis.edu
