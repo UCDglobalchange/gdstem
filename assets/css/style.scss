@@ -9,6 +9,7 @@
 }
 
 .hero-banner {
+  position: relative;
   width: 100%;
   margin-bottom: 2rem;
 }
@@ -16,8 +17,42 @@
 .hero-banner img {
   display: block;
   width: 100%;
-  height: 360px;
+  height: 420px; // slightly taller for homepage impact
   object-fit: cover;
+}
+
+/* Dark overlay for readability */
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+}
+
+/* Centered text */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  max-width: 900px;
+  padding: 0 1rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .post-title {
