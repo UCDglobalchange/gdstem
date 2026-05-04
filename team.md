@@ -62,7 +62,7 @@ banner_alt: Cropland in Kansas
     <img src="/gdstem/assets/images/team/jmelillo.jpg" alt="Jerry Melillo">
   </div>
   <div class="team-info">
-    <h3>David 'Kick' Kicklighter</h3>
+    <h3>Jerry Melillo</h3>
     <p>Director and Distinguished Scientist / Ecosystems Center, Marine Biological Laboratory</p>
     <p>Co-developer of the original TEM</p>
   </div>
@@ -81,10 +81,10 @@ banner_alt: Cropland in Kansas
 
 <div class="team-member">
   <div class="team-photo">
-    <img src="/gdstem/assets/images/team/dkicklighter.jpg" alt="David 'Kick' Kicklighter">
+    <img src="/gdstem/assets/images/team/dkicklighter.jpg" alt="David Kicklighter">
   </div>
   <div class="team-info">
-    <h3>David 'Kick' Kicklighter</h3>
+    <h3>David Kicklighter</h3>
     <p>Research Associate/ Ecosystems Center, Marine Biological Laboratory</p>
     <p>Co-developer of the original TEM</p>
   </div>
