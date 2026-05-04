@@ -33,12 +33,13 @@
   box-sizing: border-box;  /* Include padding in the total width */
 }
 
-/* Style for GDSTEM title */
+/* Align navbar title (GDSTEM) to match the wrapper */
 .navbar-title a {
   color: #000;  /* Ensure GDSTEM title is always black */
   font-weight: bold;  /* Ensure GDSTEM title is bold */
   font-size: 1.6rem;  /* Set a reasonable font size */
   text-decoration: none;  /* No underline by default */
+  padding-left: 30px;  /* Match the wrapper's left padding */
 }
 
 /* No underline on hover for GDSTEM title */
