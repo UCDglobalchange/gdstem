@@ -9,7 +9,8 @@ banner_alt: Cropland in Kansas
 
 ---
 
-<br>
+## Current developers
+
 <div class="team-member">
   <div class="team-photo">
     <img src="/gdstem/assets/images/team/bfelzer.jpg" alt="Ben Felzer">
@@ -54,3 +55,37 @@ banner_alt: Cropland in Kansas
   </div>
 </div>
 
+## Notable past developers
+
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/jmelillo.jpg" alt="Jerry Melillo">
+  </div>
+  <div class="team-info">
+    <h3>David 'Kick' Kicklighter</h3>
+    <p>Director and Distinguished Scientist / Ecosystems Center, Marine Biological Laboratory</p>
+    <p>Co-developer of the original TEM</p>
+  </div>
+</div>
+
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/dmcguire.jpg" alt="Dave McGuire">
+  </div>
+  <div class="team-info">
+    <h3>Dave McGuire</h3>
+    <p>Professor Emeritus / University of Alaska Fairbanks</p>
+    <p>Co-developer of the original TEM</p>
+  </div>
+</div>
+
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/dkicklighter.jpg" alt="Davis 'Kick' Kicklighter">
+  </div>
+  <div class="team-info">
+    <h3>David 'Kick' Kicklighter</h3>
+    <p>Research Associate/ Ecosystems Center, Marine Biological Laboratory</p>
+    <p>Co-developer of the original TEM</p>
+  </div>
+</div>
