@@ -20,6 +20,12 @@
   }
 }
 
+/* Style for active menu item */
+.navbar .active {
+  font-weight: bold;
+  color: #0073e6;  /* Optional: change color for the active link */
+}
+
 .site-header {
   position: relative;
   z-index: 10;
