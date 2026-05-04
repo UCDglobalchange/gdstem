@@ -19,7 +19,7 @@ This page lists publications associated with the **Global Dynamical and Structur
 
 ---
 
-## Publications using GDSTEM’s predecessors
+## Select publications from the team using GDSTEM or its predecessor
 
 - **Felzer, B. S.** (2025). *Modeling the future carbon sink: Land-use and climate change may offset CO₂ fertilization in the United States*. _Plants, People, Planet_, **7**(3), 763–775. [https://doi.org/10.1002/ppp3.10582](https://doi.org/10.1002/ppp3.10582)
 
@@ -30,3 +30,5 @@ This page lists publications associated with the **Global Dynamical and Structur
 - **Felzer, B. S.** (2023). *Effect of land-use legacy on the future carbon sink for the conterminous US*. _Biogeosciences_, **20**(3), 573–587. [https://doi.org/10.5194/bg-20-573-2023](https://doi.org/10.5194/bg-20-573-2023)
 
 - **Zhang, J.**, Felzer, B. S., & Troy, T. J. (2020). *Projected changes of carbon balance in mesic grassland ecosystems in response to warming and elevated CO₂ using CMIP5 GCM results in the Central Great Plains, USA*. _Ecological Modelling_, **434**, 109247. [https://doi.org/10.1016/j.ecolmodel.2020.109247](https://doi.org/10.1016/j.ecolmodel.2020.109247)
+
+- **Kicklighter, D. W.**, Melillo, J. M., Monier, E., Sokolov, A. P. & Zhuang, Q. (2019). *Future nitrogen availability and its effect on carbon sequestration in Northern Eurasia*. _Nature Communications_, **10**(3024). https://doi.org/10.1038/s41467-019-10944-0
