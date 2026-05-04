@@ -1,13 +1,19 @@
 <nav class="navbar">
   <div class="navbar-title">
-    <a href="{{ site.baseurl }}/index.html">GDSTEM</a>  <!-- GDSTEM Title Link -->
+    <a href="{{ site.baseurl }}/index.html">GDSTEM</a>
   </div>
-  <ul class="navbar-menu">
+  
+  <!-- Hamburger icon (only visible on small screens) -->
+  <div class="hamburger-menu" id="hamburger-menu">
+    &#9776;  <!-- Unicode character for hamburger icon -->
+  </div>
+
+  <!-- Navbar links -->
+  <ul class="navbar-menu" id="navbar-menu">
     <li><a href="{{ site.baseurl }}/index.html" class="{% if page.title == 'Home' %}active{% endif %}">Home</a></li>
     <li><a href="{{ site.baseurl }}/model.html" class="{% if page.title == 'Model' %}active{% endif %}">Model</a></li>
     <li><a href="{{ site.baseurl }}/team.html" class="{% if page.title == 'Team' %}active{% endif %}">Team</a></li>
     <li><a href="{{ site.baseurl }}/publications.html" class="{% if page.title == 'Publications' %}active{% endif %}">Publications</a></li>
     <li><a href="{{ site.baseurl }}/news.html" class="{% if page.title == 'News' %}active{% endif %}">News</a></li>
-    <li><a href="{{ site.baseurl }}/legacy.html" class="{% if page.title == 'News' %}active{% endif %}">Legacy</a></li>
   </ul>
 </nav>
