@@ -67,7 +67,7 @@ These transitions modify the vegetation structure, trigger disturbance processes
 
 ## Model Code
 
-The source code of GDSTEM used on the Global Carbon Budget 2025 is available on GitHub: https://github.com/UCDglobalchange/gdstem-trendyv14
+The source code of GDSTEM used on the Global Carbon Budget 2025 is available on GitHub: <https://github.com/UCDglobalchange/gdstem-trendyv14>
 
 ---
 
