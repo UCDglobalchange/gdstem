@@ -10,7 +10,19 @@
 
     {% if page.banner %}
     <div class="hero-banner">
-      <img src="{{ page.banner | relative_url }}" alt="{{ page.banner_alt | default: page.title }}">
+        <img src="{{ page.banner | relative_url }}" alt="{{ page.banner_alt | default: page.title }}">
+
+        {% if page.is_home %}
+        <div class="hero-text">
+        <h1 class="hero-title">
+          The Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)
+        </h1>
+        <p class="hero-subtitle">
+          a cohort-based carbon-nitrogen dynamics terrestrial ecosystem model to examine the land biogeochemistry of the world
+        </p>
+      </div>
+      {% endif %}
+
     </div>
     {% endif %}
 
