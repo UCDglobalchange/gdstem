@@ -15,7 +15,7 @@ We are excited to announce the launch of our new **GDSTEM website**! The new sit
 
 ---
 
-## New Publication: *An improved approach to estimate the natural land carbon sink* Published
+## New Publication: *An improved approach to estimate the natural land carbon sink*
 
 A new paper has been published in _npj Climate and Atmospheric Science_, presenting an improved method for estimating the **natural land carbon sink** using dynamic global vegetation models, providing better alignment with atmospheric carbon budget constraints. [Read the paper](https://doi.org/10.1038/s41612-025-01302-7) ([nature.com](https://www.nature.com/articles/s41612-025-01302-7))
 
