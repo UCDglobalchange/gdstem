@@ -21,35 +21,49 @@
 }
 
 /* Make the navbar horizontal */
-.navbar {
-  display: flex;
-  justify-content: space-between; /* Space out items */
-  list-style: none;  /* Remove bullet points */
-  padding: 0;
-  margin: 0;
-}
-
+/* Make navbar items spaced nicely */
 .navbar ul {
   display: flex;
+  justify-content: center;  /* Center the menu items */
   margin: 0;
   padding: 0;
 }
 
 .navbar li {
-  margin-right: 2rem; /* Add space between the menu items */
+  margin-right: 2rem;  /* Adjust spacing between items */
 }
 
+.navbar li:last-child {
+  margin-right: 0;  /* Remove the margin on the last item */
+}
+
+/* Add padding to make menu items larger for better clickability */
 .navbar a {
+  padding: 0.5rem 1rem;  /* Top/Bottom padding and Left/Right padding */
   text-decoration: none;
-  color: #333;  /* Default text color */
-  font-weight: normal;  /* Non-bold by default */
+  color: #333;  /* Default color */
+  font-weight: normal;
+  display: block;  /* Make the link block-level for easier clicking */
 }
 
+/* Add hover effect to links */
+.navbar a:hover {
+  color: #0073e6;  /* Change color on hover */
+  text-decoration: underline;  /* Optional: add underline on hover */
+}
+
+/* Make the active link bold and change color */
 .navbar .active {
-  font-weight: bold;  /* Bold active item */
-  color: #0073e6;  /* Optional: Change active link color */
+  font-weight: bold;
+  color: #0073e6;  /* Active link color */
 }
 
+/* Style the navbar with background and padding */
+.navbar {
+  background-color: #f8f8f8;  /* Light gray background */
+  padding: 1rem 2rem;  /* Add padding to top and bottom */
+  border-bottom: 1px solid #ddd;  /* Optional: add a border at the bottom */
+}
 
 .site-header {
   position: relative;
