@@ -30,7 +30,6 @@
   width: min(90%, 1000px);
   text-align: left;
   color: white;
-  padding-left: 4rem; 
 }
 
 .hero-title {
@@ -38,6 +37,9 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.2;
 }
 
 .hero-subtitle {
