@@ -3,11 +3,13 @@
 
 @import "minima";
 
-/* Widen the content to 1024px */
+/* Increase the width of the main content wrapper */
 .wrapper {
-  max-width: 1024px;  /* Or any desired width */
+  max-width: 1024px;  /* Set the maximum width to 1024px */
   margin-left: auto;
   margin-right: auto;
+  padding-right: 30px;  /* Padding to prevent content from touching edges */
+  padding-left: 30px;
 }
 
 .site-header {
