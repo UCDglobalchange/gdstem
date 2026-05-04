@@ -1,20 +1,57 @@
-<nav class="navbar">
-  <div class="navbar-title">
-    <a href="{{ site.baseurl }}/index.html">GDSTEM</a>
-  </div>
+<head>
+  <!-- Meta Information for SEO -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <!-- Hamburger icon (only visible on small screens) -->
-  <div class="hamburger-menu" id="hamburger-menu">
-    &#9776;  <!-- Unicode character for hamburger icon -->
-  </div>
+  <!-- Page Title and Description -->
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ page.social_image | default: site.social_image }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
 
-  <!-- Navbar links -->
-  <ul class="navbar-menu" id="navbar-menu">
-    <li><a href="{{ site.baseurl }}/index.html" class="{% if page.title == 'Home' %}active{% endif %}">Home</a></li>
-    <li><a href="{{ site.baseurl }}/model.html" class="{% if page.title == 'Model' %}active{% endif %}">Model</a></li>
-    <li><a href="{{ site.baseurl }}/team.html" class="{% if page.title == 'Team' %}active{% endif %}">Team</a></li>
-    <li><a href="{{ site.baseurl }}/publications.html" class="{% if page.title == 'Publications' %}active{% endif %}">Publications</a></li>
-    <li><a href="{{ site.baseurl }}/news.html" class="{% if page.title == 'News' %}active{% endif %}">News</a></li>
-    <li><a href="{{ site.baseurl }}/legacy.html" class="{% if page.title == 'News' %}active{% endif %}">Legacy</a></li>
-  </ul>
-</nav>
+  <!-- Optional: Twitter card metadata (only if you want specific Twitter previews) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ page.social_image | default: site.social_image }}">
+  
+  <!-- SEO Plugin: Automatically adds additional SEO meta tags -->
+  {% seo %}
+
+  <!-- Page Title -->
+  <title>{{ page.title | default: site.title }}</title>
+
+  <!-- Link to Favicon -->
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+
+  <!-- Stylesheet for the website -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-title">
+      <!-- GDSTEM title link (linked to the homepage) -->
+      <a href="{{ site.baseurl }}/index.html" class="navbar-title-link">GDSTEM</a>
+    </div>
+
+    <!-- Hamburger icon (only visible on small screens) -->
+    <div class="hamburger-menu" id="hamburger-menu">
+      &#9776;  <!-- Unicode character for hamburger icon -->
+    </div>
+
+    <!-- Navbar links (menu items) -->
+    <ul class="navbar-menu" id="navbar-menu">
+      <li><a href="{{ site.baseurl }}/index.html" class="{% if page.title == 'Home' %}active{% endif %}">Home</a></li>
+      <li><a href="{{ site.baseurl }}/model.html" class="{% if page.title == 'Model' %}active{% endif %}">Model</a></li>
+      <li><a href="{{ site.baseurl }}/team.html" class="{% if page.title == 'Team' %}active{% endif %}">Team</a></li>
+      <li><a href="{{ site.baseurl }}/publications.html" class="{% if page.title == 'Publications' %}active{% endif %}">Publications</a></li>
+      <li><a href="{{ site.baseurl }}/news.html" class="{% if page.title == 'News' %}active{% endif %}">News</a></li>
+      <li><a href="{{ site.baseurl }}/legacy.html" class="{% if page.title == 'Legacy' %}active{% endif %}">Legacy</a></li>
+    </ul>
+  </nav>
