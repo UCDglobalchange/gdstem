@@ -81,7 +81,7 @@ banner_alt: Cropland in Kansas
 
 <div class="team-member">
   <div class="team-photo">
-    <img src="/gdstem/assets/images/team/dkicklighter.jpg" alt="Davis 'Kick' Kicklighter">
+    <img src="/gdstem/assets/images/team/dkicklighter.jpg" alt="David 'Kick' Kicklighter">
   </div>
   <div class="team-info">
     <h3>David 'Kick' Kicklighter</h3>
