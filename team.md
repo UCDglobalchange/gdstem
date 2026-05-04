@@ -36,7 +36,7 @@ banner_alt: Cropland in Kansas
     <img src="/gdstem/assets/images/team/ylu.jpg" alt="Yanyan Lu">
   </div>
   <div class="team-info">
-    <h3>Erwan Monier</h3>
+    <h3>Yanyan Lu</h3>
     <p>Graduate Student / University of California, Davis</p>
     <p>Currently implementing and evaluating the CLM fire module in GDSTEM</p>
   </div>
@@ -47,7 +47,7 @@ banner_alt: Cropland in Kansas
     <img src="/gdstem/assets/images/team/adudukalov.jpg" alt="Artem Dudukalov">
   </div>
   <div class="team-info">
-    <h3>Erwan Monier</h3>
+    <h3>Artem Dudukalov</h3>
     <p>Undergraduate Student / University of California, Davis</p>
     <p>Currently developing an automated Bayesian calibration framework</p>
   </div>
