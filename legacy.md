@@ -28,9 +28,9 @@ TEM also integrated **carbon and nitrogen cycles**, which was a significant adva
 
 ## The Evolution of TEM to GDSTEM
 
-Over the years, TEM underwent several modifications to include more complex interactions, such as **methane fluxes**, and to **integrate with Earth system models** that coupled terrestrial, atmospheric, and oceanic processes. TEM’s influence continues to this day in the form of **GDSTEM**, the most recent version of the model. GDSTEM builds upon the foundations of TEM, incorporating **new data**, **advanced computational techniques**, and refined **carbon cycle modeling** to address current global change challenges.
+Over the years, TEM underwent several modifications to include more complex interactions, such as **methane fluxes**, and to **integrate with Earth system models** that coupled terrestrial, atmospheric, and oceanic processes. TEM’s influence continues to this day in the form of **GDSTEM**, a **successor model** that builds upon the foundations of TEM. GDSTEM incorporates **new data**, **increased complexity in the representation of vegetation and soil**, **improved representation of land management**, **new environmental drivers**, and **refined carbon and nitrogen cycle modeling** to address current global change challenges.
 
-Today, GDSTEM is used to predict the **long-term impacts of climate change**, **carbon sequestration**, and the role of terrestrial ecosystems in **global carbon cycling**. It remains one of the most important models for studying the future of ecosystems and informing **climate policy** and **management strategies**.
+Today, GDSTEM is used to predict the **long-term impacts of global environmental change**, **of past, present, and future land-use decisions**, and the role of terrestrial ecosystems in the **global carbon budget**. It remains one of the most important models for studying the future of ecosystems and informing **climate policy** and **management strategies**.
 
 ## TEM’s Legacy and Its Continued Impact
 
