@@ -1,6 +1,8 @@
 ---
-layout: default
-title: GDSTEM
+layout: page
+title: Home
+banner: /assets/images/banners/tropical-forest-banner.jpg
+banner_alt: Tropical forest canopy
 ---
 
 <div class="page-banner">
