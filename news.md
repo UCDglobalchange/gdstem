@@ -7,6 +7,8 @@ banner_alt: News
 
 # News
 
+---
+
 ## New GDSTEM Website Launched
 
 We are excited to announce the launch of our new **GDSTEM website**! The new site offers easier access to model documentation, recent publications, team updates, and upcoming events. Stay tuned for more updates as we continue to improve the site!
