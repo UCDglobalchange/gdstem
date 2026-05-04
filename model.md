@@ -5,8 +5,6 @@ banner: /assets/images/banners/model-banner.jpeg
 banner_alt: Savannah
 ---
 
-# GDSTEM Model Description
-
 ## Overview
 
 The **Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)** is a
