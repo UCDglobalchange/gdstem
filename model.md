@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: page
 title: Model
+banner: /assets/images/banners/model-banner.jpeg
+banner_alt: Savannah
 ---
 
 # GDSTEM Model Description
