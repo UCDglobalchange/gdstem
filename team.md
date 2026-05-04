@@ -55,6 +55,8 @@ banner_alt: Cropland in Kansas
   </div>
 </div>
 
+---
+
 ## Notable past developers
 
 <div class="team-member">
