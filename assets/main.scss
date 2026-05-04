@@ -4,8 +4,7 @@
 @import "minima";
 
 /* Main CSS File */
-
-/* Wrapper for page content */
+/* Wrapper for main content */
 .wrapper {
   max-width: 1024px;  /* Set the maximum width to 1024px */
   margin-left: auto;
@@ -44,19 +43,6 @@
 
 /* No underline on hover for GDSTEM title */
 .navbar-title a:hover {
-  color: #000;  /* GDSTEM title stays black on hover */
-  text-decoration: none;  /* Ensure no underline on hover */
-}
-
-/* Ensure GDSTEM title stays black and no underline on hover */
-.navbar-title-link {
-  color: #000;  /* Always black */
-  font-weight: bold;  /* Make the title bold */
-  font-size: 1.6rem;  /* Set a reasonable font size */
-  text-decoration: none;  /* No underline by default */
-}
-
-.navbar-title-link:hover {
   color: #000;  /* GDSTEM title stays black on hover */
   text-decoration: none;  /* Ensure no underline on hover */
 }
@@ -136,7 +122,6 @@
   }
 }
 
-/* Hero banner section */
 .hero-banner {
   position: relative;
   width: 100%;
@@ -171,7 +156,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: min(90%, 1000px);
+  width: min(90%, 1000px);  /* Same as .wrapper width */
   color: white;
   text-align: left;
 }
@@ -181,7 +166,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
-  max-width: 800px;
+  max-width: 800px;  /* Match the wrapper max width */
   margin: 0 auto 1rem auto;
 }
 
@@ -189,12 +174,8 @@
   color: white;
   font-size: 1.2rem;
   line-height: 1.4;
-  max-width: 800px;
+  max-width: 800px;  /* Match the wrapper max width */
   margin: 0 auto;
-}
-
-.post-title {
-  display: none;
 }
 
 .page-content {
@@ -219,7 +200,6 @@
   }
 }
 
-/* Team Member Section */
 .team-member {
   display: flex;
   align-items: center;
