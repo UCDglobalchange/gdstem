@@ -48,6 +48,19 @@
   text-decoration: none;  /* Ensure no underline on hover */
 }
 
+/* Ensure GDSTEM title stays black and no underline on hover */
+.navbar-title-link {
+  color: #000;  /* Always black */
+  font-weight: bold;  /* Make the title bold */
+  font-size: 1.6rem;  /* Set a reasonable font size */
+  text-decoration: none;  /* No underline by default */
+}
+
+.navbar-title-link:hover {
+  color: #000;  /* GDSTEM title stays black on hover */
+  text-decoration: none;  /* Ensure no underline on hover */
+}
+
 /* Make all menu items bold */
 .navbar-menu a {
   text-decoration: none;  /* Ensure no underline by default */
