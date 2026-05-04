@@ -9,13 +9,18 @@
     {%- include header.html -%}
 
     {% if page.banner %}
-    <div class="hero-banner">
+    <div class="hero-banner {% if page.is_home %}hero-home{% endif %}">
       <img src="{{ page.banner | relative_url }}" alt="{{ page.banner_alt | default: page.title }}">
 
       {% if page.is_home %}
       <div class="hero-text">
-        <h1 class="hero-title">The Global Dynamical and Structural<br/>Terrestrial Ecosystem Model (GDSTEM)</h1>
-        <p class="hero-subtitle">A cohort-based carbon-nitrogen dynamics terrestrial ecosystem model to examine the land biogeochemistry across the world's ecosystem and the influence of humans and environmental drivers</p>
+        <h1 class="hero-title">
+          The Global Dynamical and Structural<br>
+          Terrestrial Ecosystem Model (GDSTEM)
+        </h1>
+        <p class="hero-subtitle">
+          A cohort-based carbon-nitrogen dynamics terrestrial ecosystem model to examine the land biogeochemistry across the world's ecosystem and the influence of humans and environmental drivers
+        </p>
       </div>
       {% endif %}
     </div>
