@@ -12,6 +12,14 @@
   padding-left: 30px;
 }
 
+@media screen and (max-width: 800px) {
+  .wrapper {
+    max-width: calc(100% - 30px); /* Allow more width when the screen is smaller */
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
 .site-header {
   position: relative;
   z-index: 10;
