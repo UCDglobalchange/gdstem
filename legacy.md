@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team
+title: Legacy
 banner: /assets/images/banners/legacy-banner.jpeg
 banner_alt: Tundra
 ---
