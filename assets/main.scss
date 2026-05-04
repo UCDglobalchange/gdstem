@@ -49,7 +49,7 @@
 
 /* Make all menu items bold */
 .navbar-menu a {
-  text-decoration: none;
+  text-decoration: none;  /* Ensure no underline by default */
   color: #333;  /* Default color */
   font-weight: bold;  /* Make menu items bold */
   padding: 0.5rem 1rem;  /* Add padding for easier clicking */
@@ -59,7 +59,7 @@
 /* Change color when hovering over a menu item */
 .navbar-menu a:hover {
   color: #0073e6;  /* Change color on hover */
-  text-decoration: none;  /* No underline on hover */
+  text-decoration: none;  /* Remove underline on hover */
 }
 
 /* Make the active menu item bold and change color */
