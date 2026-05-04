@@ -11,7 +11,7 @@ banner_alt: Cropland in Kansas
 
 <div class="team-member">
   <div class="team-photo">
-    <img src="/gdstem/assets/images/team/bfelzer" alt="Ben Felzer">
+    <img src="/gdstem/assets/images/team/bfelzer.jpg" alt="Ben Felzer">
   </div>
   <div class="team-info">
     <h3>Ben Felzer</h3>
