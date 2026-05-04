@@ -1,10 +1,12 @@
+<!-- JavaScript to Toggle Hamburger Menu -->
 <script>
-  // Get the hamburger icon and the navbar menu
-  const hamburgerMenu = document.getElementById('hamburger-menu');
-  const navbarMenu = document.getElementById('navbar-menu');
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navbarMenu = document.getElementById('navbar-menu');
 
-  // Toggle the visibility of the menu when the hamburger icon is clicked
-  hamburgerMenu.addEventListener('click', function() {
-    navbarMenu.classList.toggle('show');  // Toggle the 'show' class to display/hide the menu
+    // Toggle the visibility of the menu when the hamburger icon is clicked
+    hamburgerMenu.addEventListener('click', function() {
+      navbarMenu.classList.toggle('show');  // Toggle the 'show' class to display/hide the menu
+    });
   });
 </script>
