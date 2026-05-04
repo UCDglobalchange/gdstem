@@ -20,49 +20,50 @@
   }
 }
 
-/* Make the navbar horizontal */
-/* Make navbar items spaced nicely */
-.navbar ul {
+/* Navbar layout: GDSTEM title on the left, menu on the right */
+.navbar {
   display: flex;
-  justify-content: center;  /* Center the menu items */
+  justify-content: space-between;  /* Space between title and menu */
+  align-items: center;  /* Vertically center the title and menu */
+  padding: 1rem 2rem;  /* Padding for the navbar */
+  background-color: #f8f8f8;  /* Optional background color */
+  border-bottom: 1px solid #ddd;  /* Optional bottom border */
+}
+
+.navbar-title {
+  font-size: 1.8rem;  /* Adjust the size of the title */
+  font-weight: bold;  /* Make the title bold */
+}
+
+.navbar-menu {
+  display: flex;  /* Make the menu horizontal */
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.navbar li {
-  margin-right: 2rem;  /* Adjust spacing between items */
+.navbar-menu li {
+  margin-right: 2rem;  /* Add space between the menu items */
 }
 
-.navbar li:last-child {
-  margin-right: 0;  /* Remove the margin on the last item */
+.navbar-menu li:last-child {
+  margin-right: 0;  /* Remove space after the last item */
 }
 
-/* Add padding to make menu items larger for better clickability */
-.navbar a {
-  padding: 0.5rem 1rem;  /* Top/Bottom padding and Left/Right padding */
+.navbar-menu a {
   text-decoration: none;
   color: #333;  /* Default color */
-  font-weight: normal;
-  display: block;  /* Make the link block-level for easier clicking */
+  padding: 0.5rem 1rem;  /* Add padding for easier clicking */
 }
 
-/* Add hover effect to links */
-.navbar a:hover {
-  color: #0073e6;  /* Change color on hover */
-  text-decoration: underline;  /* Optional: add underline on hover */
+.navbar-menu a:hover {
+  color: #0073e6;  /* Hover color */
+  text-decoration: underline;
 }
 
-/* Make the active link bold and change color */
 .navbar .active {
   font-weight: bold;
-  color: #0073e6;  /* Active link color */
-}
-
-/* Style the navbar with background and padding */
-.navbar {
-  background-color: #f8f8f8;  /* Light gray background */
-  padding: 1rem 2rem;  /* Add padding to top and bottom */
-  border-bottom: 1px solid #ddd;  /* Optional: add a border at the bottom */
+  color: #0073e6;  /* Active menu item color */
 }
 
 .site-header {
