@@ -9,6 +9,7 @@ banner_alt: Cropland in Kansas
 
 ---
 
+<br>
 <div class="team-member">
   <div class="team-photo">
     <img src="/gdstem/assets/images/team/bfelzer.jpg" alt="Ben Felzer">
