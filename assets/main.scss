@@ -20,12 +20,12 @@
   }
 }
 
-/* Navbar layout: GDSTEM title on the left, menu on the right */
+/* Adjust padding to make the navbar height smaller */
 .navbar {
   display: flex;
   justify-content: space-between;  /* Space between title and menu */
   align-items: center;  /* Vertically center the title and menu */
-  padding: 1rem 2rem;  /* Padding for the navbar */
+  padding: 0.5rem 4rem;  /* Reduce top/bottom padding */
   background-color: #f8f8f8;  /* Optional background color */
   border-bottom: 1px solid #ddd;  /* Optional bottom border */
   width: 100%;  /* Ensure full width */
@@ -33,8 +33,8 @@
 }
 
 .navbar-title {
-  font-size: 1.8rem;  /* Adjust the size of the title */
-  font-weight: bold;  /* Make the title bold */
+  font-size: 1.6rem;  /* Slightly reduce the font size of the title */
+  font-weight: bold;  /* Keep the title bold */
 }
 
 .navbar-title a {
@@ -47,6 +47,27 @@
   text-decoration: none;  /* Remove the underline effect on hover */
 }
 
+/* Make all menu items bold */
+.navbar-menu a {
+  text-decoration: none;
+  color: #333;  /* Default color */
+  font-weight: bold;  /* Make menu items bold */
+  padding: 0.5rem 1rem;  /* Add padding for easier clicking */
+  font-size: 1rem;  /* Adjust font size of menu items */
+}
+
+/* Change color when hovering over a menu item */
+.navbar-menu a:hover {
+  color: #0073e6;  /* Change color on hover */
+  text-decoration: none;  /* No underline on hover */
+}
+
+/* Make the active menu item bold and change color */
+.navbar .active {
+  font-weight: bold;
+  color: #0073e6;  /* Active menu item color */
+}
+
 .navbar-menu {
   display: flex;  /* Make the menu horizontal */
   list-style: none;
@@ -57,27 +78,11 @@
 }
 
 .navbar-menu li {
-  margin-right: 1.5rem;  /* Adjust space between items */
+  margin-right: 1.5rem;  /* Add space between items */
 }
 
 .navbar-menu li:last-child {
   margin-right: 0;  /* Remove space after the last item */
-}
-
-.navbar-menu a {
-  text-decoration: none;
-  color: #333;  /* Default color */
-  padding: 0.5rem 1rem;  /* Add padding for easier clicking */
-}
-
-.navbar-menu a:hover {
-  color: #0073e6;  /* Hover color */
-  text-decoration: underline;
-}
-
-.navbar .active {
-  font-weight: bold;
-  color: #0073e6;  /* Active menu item color */
 }
 
 .site-header {
