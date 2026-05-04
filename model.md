@@ -18,37 +18,12 @@ It combines:
 
 ---
 
-## 🧩 Model Structure
+## Model Structure
 
-![GDSTEM schematic](assets/images/schematic.png)
+![GDSTEM schematic](assets/images/gdstem-schematic.png)
 
-GDSTEM represents ecosystems using a **cohort-based approach**, where each grid
-cell contains multiple vegetation cohorts that differ in:
-- Age (stand age)
-- Plant functional type (PFT)
-- Disturbance history
+*Figure 1. Conceptual schematic of the GDSTEM model showing major components and fluxes.*
 
----
-
-## 🔄 Land-Use Dynamics
-
-Land-use and land-cover change (LULCC) is a central feature of GDSTEM.
-
-The model tracks transitions between:
-- Primary vegetation
-- Secondary vegetation
-- Cropland
-- Pasture
-- Urban land
-
-These transitions:
-- Modify vegetation structure
-- Trigger disturbance processes
-- Influence carbon fluxes
-
----
-
-## 🌿 Carbon Cycle
 
 GDSTEM simulates carbon storage and fluxes across:
 - Leaves
@@ -64,16 +39,34 @@ Key fluxes include:
 
 ---
 
-## 🧪 Model Code
+## Land-Use Dynamics
 
-The GDSTEM source code is available on GitHub:
+Land-use and land-cover change (LULCC) is a central feature of GDSTEM, which tracks land use history using a cohort approach.
 
-👉 https://github.com/UCDglobalchange/gdstem
+![GDSTEM cohort approach](assets/images/gdstem-cohort-approach.png)
+
+*Figure 1. Example of how GDSTEM tracks historical land-use change through its cohort approach.*
+
+The model tracks transitions between:
+- Primary vegetation
+- Secondary vegetation
+- C3 crops
+- C4 crops
+- Perennial crops
+- Pasture
+- Rangeland
+- Urban land
+
+These transitions modify the vegetation structure, trigger disturbance processes, and influence water, carbon, nitrogen, and energy fluxes.
 
 ---
 
-## 📄 Documentation (coming soon)
+## Model Code
 
-- Model equations
-- Parameter descriptions
-- Input datasets
+The source code of GDSTEM used on the Global Carbon Budget 2025 is available on GitHub: https://github.com/UCDglobalchange/gdstem-trendyv14
+
+---
+
+## Documentation (coming soon)
+
+We are currently working on a description and evaluation manuscript. 
