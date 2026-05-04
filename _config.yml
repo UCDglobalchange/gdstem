@@ -10,3 +10,11 @@ header_pages:
   - team.md
   - publications.md
   - legacy.md
+
+plugins:
+  - jekyll-seo-tag
+
+# Basic SEO info
+title: "Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)"
+description: "Official website for GDSTEM — a global cohort-based terrestrial ecosystem model for carbon, nitrogen, and water dynamics."
+url: "https://ucdglobalchange.github.io/gdstem"   # your live site URL
