@@ -31,4 +31,4 @@ This page lists publications associated with the **Global Dynamical and Structur
 
 - **Zhang, J.**, Felzer, B. S., & Troy, T. J. (2020). *Projected changes of carbon balance in mesic grassland ecosystems in response to warming and elevated CO₂ using CMIP5 GCM results in the Central Great Plains, USA*. _Ecological Modelling_, **434**, 109247. [https://doi.org/10.1016/j.ecolmodel.2020.109247](https://doi.org/10.1016/j.ecolmodel.2020.109247)
 
-- **Kicklighter, D. W.**, Melillo, J. M., Monier, E., Sokolov, A. P. & Zhuang, Q. (2019). *Future nitrogen availability and its effect on carbon sequestration in Northern Eurasia*. _Nature Communications_, **10**(3024). https://doi.org/10.1038/s41467-019-10944-0
+- **Kicklighter, D. W.**, Melillo, J. M., Monier, E., Sokolov, A. P. & Zhuang, Q. (2019). *Future nitrogen availability and its effect on carbon sequestration in Northern Eurasia*. _Nature Communications_, **10**(3024). [https://doi.org/10.1038/s41467-019-10944-0](https://doi.org/10.1038/s41467-019-10944-0)
