@@ -133,7 +133,6 @@
   height: 280px;
   margin-bottom: 2rem;
   overflow: hidden;
-  border:5px solid blue;
 }
 
 .hero-home {
@@ -165,6 +164,7 @@
   width: min(90%, 1000px);  /* Same as .wrapper width */
   color: white;
   text-align: left;
+  border:5px solid blue;
 }
 
 .hero-title {
@@ -174,6 +174,7 @@
   line-height: 1.2;
   max-width: 800px;  /* Match the wrapper max width */
   margin: 0 auto 1rem auto;
+  border:5px solid black;
 }
 
 .hero-subtitle {
