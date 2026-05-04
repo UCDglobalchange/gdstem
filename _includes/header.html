@@ -1,5 +1,8 @@
 <nav class="navbar">
-  <ul>
+  <div class="navbar-title">
+    <a href="{{ site.baseurl }}/index.html">GDSTEM</a>  <!-- GDSTEM Title Link -->
+  </div>
+  <ul class="navbar-menu">
     <li><a href="{{ site.baseurl }}/index.html" class="{% if page.title == 'Home' %}active{% endif %}">Home</a></li>
     <li><a href="{{ site.baseurl }}/model.html" class="{% if page.title == 'Model' %}active{% endif %}">Model</a></li>
     <li><a href="{{ site.baseurl }}/team.html" class="{% if page.title == 'Team' %}active{% endif %}">Team</a></li>
