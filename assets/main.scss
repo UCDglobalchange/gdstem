@@ -26,10 +26,8 @@
   display: flex;
   justify-content: space-between;  /* Space between title and menu */
   align-items: center;  /* Vertically center the title and menu */
-  /*padding: 0.5rem 4rem;  /* Add padding to both sides of the navbar */ */
   background-color: #f8f8f8;  /* Optional background color */
   border-bottom: 1px solid #ddd;  /* Optional bottom border */
-  /* width: 100%;  /* Ensure full width */ */
   box-sizing: border-box;  /* Include padding in the total width */
   max-width: 1024px;  /* Set the maximum width to 1024px */
   margin-left: auto;
@@ -44,7 +42,6 @@
   font-weight: bold;  /* Ensure GDSTEM title is bold */
   font-size: 1.6rem;  /* Set a reasonable font size */
   text-decoration: none;  /* No underline by default */
-  /* padding-left: 30px;  /* Match the wrapper's left padding */ */
 }
 
 /* No underline on hover for GDSTEM title */
