@@ -13,7 +13,7 @@ This page lists publications associated with the **Global Dynamical and Structur
 
 ## Publications using GDSTEM
 
-- **Friedlingstein, P.**, Le Quéré, C., O’Sullivan, M., Hauck, J., Landschützer, P., Luijkx, I. T., Li, H., van der Woude, A., Schwingshackl, C., Pongratz, J., Regnier, P., Andrew, R. M., Bakker, D. C. E., Canadell, J. G., Ciais, P., Gasser, T., Jones, M. W., Lan, X., Morgan, E., Olsen, A., Peters, G. P., Peters, W., Sitch, S., Tian, H. (2026). *Emerging climate impact on carbon sinks in a consolidated carbon budget*. _Nature_, **649**(8095), 98–103. https://doi.org/10.1038/s41586-025-09802-5
+- **O’Sullivan, M.**, Friedlingstein, P., Sitch, S., Pongratz, J., Schwingshackl, C., Gasser, T., Ciais, P., Arora, V. K., Kato, E., Knauer, J., Monier, E., Nützel, T., Sun, Q., Yuan, W., Yue, X., & Zaehle, S. (2026). *An improved approach to estimate the natural land carbon sink*. _Nature_, **649**, 98–103. https://doi.org/10.1038/s41612-025-01302-7
 
 ---
 
