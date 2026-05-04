@@ -20,103 +20,81 @@
   }
 }
 
-/* Navbar layout: GDSTEM title on the left, menu on the right */
+/* Base navbar (desktop) */
 .navbar {
   display: flex;
-  justify-content: space-between;  /* Space between title and menu */
-  align-items: center;  /* Vertically center the title and menu */
-  padding: 0.5rem 4rem;  /* Add padding to both sides of the navbar */
-  background-color: #f8f8f8;  /* Optional background color */
-  border-bottom: 1px solid #ddd;  /* Optional bottom border */
-  width: 100%;  /* Ensure full width */
-  box-sizing: border-box;  /* Include padding in the total width */
-  position: relative;  /* Needed to position the dropdown menu below */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  position: relative;
 }
 
-.navbar-title {
-  font-size: 1.6rem;  /* Slightly reduce the font size of the title */
-  font-weight: bold;  /* Keep the title bold */
-}
-
-.navbar-title a {
-  color: #000;  /* Set the GDSTEM title color to black */
-  text-decoration: none;  /* Ensure no underline */
-}
-
-.navbar-title a:hover {
-  color: #000;  /* Ensure the title remains black on hover */
-  text-decoration: none;  /* Remove the underline effect on hover */
-}
-
-/* Make all menu items bold */
-.navbar-menu a {
-  text-decoration: none;  /* Ensure no underline by default */
-  color: #333;  /* Default color */
-  font-weight: bold;  /* Make menu items bold */
-  padding: 0.5rem 1rem;  /* Add padding for easier clicking */
-  font-size: 1rem;  /* Adjust font size of menu items */
-}
-
-/* Change color when hovering over a menu item */
-.navbar-menu a:hover {
-  color: #0073e6;  /* Change color on hover */
-  text-decoration: none;  /* Remove underline on hover */
-}
-
-/* Make the active menu item bold and change color */
-.navbar .active {
-  font-weight: bold;
-  color: #0073e6;  /* Active menu item color */
-}
-
-/* Flex container for the menu */
+/* Menu links (desktop) */
 .navbar-menu {
-  display: flex;  /* Make the menu horizontal */
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  flex-grow: 1;  /* Allow the menu to take up available space */
-  justify-content: flex-end;  /* Align the menu items to the right */
+  gap: 1rem;
 }
 
-.navbar-menu li {
-  margin-right: 1rem;  /* Add space between items */
+.navbar-menu a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 0.75rem;
 }
 
-.navbar-menu li:last-child {
-  margin-right: 0;  /* Remove space after the last item */
+.navbar-menu a:hover,
+.navbar .active {
+  color: #0073e6;
 }
 
-/* Hamburger menu - only visible on small screens */
+/* Hamburger icon hidden by default */
 .hamburger-menu {
-  display: none;  /* Hide by default */
-  font-size: 2rem;  /* Hamburger icon size */
-  cursor: pointer;  /* Make it clickable */
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
-/* Mobile: stack vertically */
+/* --------------- Mobile (max‑width 768px) --------------- */
 @media (max-width: 768px) {
+
+  /* Hide desktop links */
   .navbar-menu {
-    display: none;  /* Hide the menu items on small screens */
-    flex-direction: column;  /* Stack menu items vertically */
-    width: 100%;  /* Make the menu full width */
-    text-align: left;  /* Align the menu to the left */
-    position: absolute;  /* Position it below the navbar */
-    left: 0;  /* Align the dropdown to the left of the navbar */
-    top: 100%;  /* Position the menu directly under the navbar */
-    background-color: #f8f8f8;  /* Optional background color for dropdown */
+    display: none;
   }
 
-  .navbar-menu li {
-    margin: 1rem 0;  /* Add space between vertically stacked items */
-  }
-
+  /* Show hamburger */
   .hamburger-menu {
-    display: block;  /* Show hamburger icon on small screens */
+    display: block;
   }
 
+  /* Dropdown menu (mobile) */
   .navbar-menu.show {
-    display: flex;  /* Show the menu when the hamburger is clicked */
+    display: block;
+    position: absolute;  /* Allow placement below navbar */
+    top: 100%;  /* Directly below the navbar */
+    left: 0;   /* Left aligned */
+    width: 100%;  /* Full width */
+    background: #f8f8f8;  /* Matches navbar */
+    padding: 0.75rem 1rem;  /* Adds a little padding */
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1); /* Optional subtle shadow */
+    z-index: 999;  /* Sit above page content */
+  }
+
+  .navbar-menu.show li {
+    margin-bottom: 0.75rem;
+  }
+
+  .navbar-menu.show a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
   }
 }
 
