@@ -3,6 +3,10 @@ layout: default
 title: GDSTEM
 ---
 
+<div class="page-banner">
+  <img src="assets/images/banners/home-banner.png" alt="Global terrestrial ecosystems banner">
+</div>
+
 # Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)
 
 ## Overview
