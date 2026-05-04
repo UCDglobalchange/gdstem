@@ -28,6 +28,8 @@
   padding: 1rem 2rem;  /* Padding for the navbar */
   background-color: #f8f8f8;  /* Optional background color */
   border-bottom: 1px solid #ddd;  /* Optional bottom border */
+  width: 100%;  /* Ensure full width */
+  box-sizing: border-box;  /* Include padding in the total width */
 }
 
 .navbar-title {
@@ -35,15 +37,27 @@
   font-weight: bold;  /* Make the title bold */
 }
 
+.navbar-title a {
+  color: #000;  /* Set the GDSTEM title color to black */
+  text-decoration: none;  /* Ensure no underline */
+}
+
+.navbar-title a:hover {
+  color: #000;  /* Ensure the title remains black on hover */
+  text-decoration: none;  /* Remove the underline effect on hover */
+}
+
 .navbar-menu {
   display: flex;  /* Make the menu horizontal */
   list-style: none;
   margin: 0;
   padding: 0;
+  flex-grow: 1;  /* Allow the menu to take up available space */
+  justify-content: flex-end;  /* Align the menu items to the right */
 }
 
 .navbar-menu li {
-  margin-right: 2rem;  /* Add space between the menu items */
+  margin-right: 1.5rem;  /* Adjust space between items */
 }
 
 .navbar-menu li:last-child {
