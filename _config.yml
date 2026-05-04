@@ -13,8 +13,22 @@ header_pages:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Basic SEO info
-title: "Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)"
-description: "Official website for GDSTEM — a global cohort-based terrestrial ecosystem model for carbon, nitrogen, and water dynamics."
-url: "https://ucdglobalchange.github.io/gdstem"   # your live site URL
+# SEO settings
+url: "https://ucdglobalchange.github.io/gdstem"  # Your website URL
+social_image: "/assets/images/banners/home-banner.jpeg"  # Default image for social sharing (LinkedIn and Facebook)
+
+# Enable sitemap for search engine optimization
+sitemap:
+  changefreq: "weekly"  # Frequency of changes (can adjust based on your updates)
+  priority: 0.5  # Priority (0 to 1, where 1 is most important)
+  exclude:
+    - /draft/*  # Optional: exclude any pages like drafts or under-development
+
+# Default settings for all pages
+defaults:
+  - scope:
+      path: ""  # Apply to all pages
+    values:
+      image: "/assets/images/banners/home-banner.jpeg"   # Default image for social sharing (LinkedIn)
