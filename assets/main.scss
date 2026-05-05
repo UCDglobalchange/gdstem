@@ -157,15 +157,13 @@
 }
 
 .hero-text {
-  position: relative;  /* Using relative positioning */
+  position: absolute;
   z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 1024px;  /* Ensure the hero text doesn't exceed the wrapper's width */
-  width: 100%;  /* Allow hero text to fill available width */
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;  /* Allow hero text to fill the available width */
+  max-width: 1024px;  /* Ensure the hero text doesn't stretch beyond the wrapper's width */
   padding-left: 30px;  /* Match wrapper's left padding */
   padding-right: 30px;  /* Match wrapper's right padding */
   color: white;
