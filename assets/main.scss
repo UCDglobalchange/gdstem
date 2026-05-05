@@ -25,16 +25,18 @@
 /* Navbar layout: GDSTEM title on the left, menu on the right */
 .navbar {
   display: flex;
-  justify-content: space-between;  /* Space between title and menu */
-  align-items: center;  /* Vertically center the title and menu */
-  background-color: #f8f8f8;  /* Optional background color */
-  border-bottom: 1px solid #ddd;  /* Optional bottom border */
-  max-width: 1024px;  /* Set the maximum width to 1024px */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  max-width: 1024px;  /* Ensure navbar doesn't stretch beyond the wrapper */
   margin-left: auto;
   margin-right: auto;
-  padding-right: 30px;  /* Padding to prevent content from touching edges */
-  padding-left: 30px;
-  border:5px solid red;
+  padding-left: 30px;  /* Match wrapper's padding */
+  padding-right: 30px;  /* Match wrapper's padding */
+  box-sizing: border-box;  /* Ensure padding is included in total width */
+  border: 5px solid red; /* (For debugging) */
 }
 
 /* Align navbar title (GDSTEM) to match the wrapper */
@@ -155,19 +157,20 @@
 }
 
 .hero-text {
-  position: absolute;
+  position: relative;  /* Using relative positioning */
   z-index: 2;
-  left: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  text-align: left;
-  max-width: 1024px;  /* Set the maximum width to 1024px */
+  max-width: 1024px;  /* Ensure the hero text doesn't exceed the wrapper's width */
+  width: 100%;  /* Allow hero text to fill available width */
   margin-left: auto;
   margin-right: auto;
-  padding-right: 30px;  /* Padding to prevent content from touching edges */
-  padding-left: 30px;
-  border:5px solid red;
+  padding-left: 30px;  /* Match wrapper's left padding */
+  padding-right: 30px;  /* Match wrapper's right padding */
+  color: white;
+  text-align: left;
+  border: 5px solid blue; /* (For debugging) */
 }
 
 .hero-title {
