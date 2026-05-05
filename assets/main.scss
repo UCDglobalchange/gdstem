@@ -11,7 +11,6 @@
   margin-right: auto;
   padding-right: 30px;  /* Padding to prevent content from touching edges */
   padding-left: 30px;
-  border:5px solid red;
 }
 
 @media screen and (max-width: 800px) {
@@ -29,14 +28,10 @@
   align-items: center;
   background-color: #f8f8f8;
   border-bottom: 1px solid #ddd;
-  width: 100%;
+/*  width: 100%; */
   max-width: 1024px;  /* Ensure navbar doesn't stretch beyond the wrapper */
   margin-left: auto;
   margin-right: auto;
-  /*padding-left: 30px;*/  /* Match wrapper's padding */
-  /*padding-right: 30px;*/  /* Match wrapper's padding */
-  /*box-sizing: border-box;*/  /* Ensure padding is included in total width */
-  border: 5px solid red; /* (For debugging) */
 }
 
 /* Align navbar title (GDSTEM) to match the wrapper */
@@ -168,7 +163,6 @@
   padding-right: 30px;  /* Match wrapper's right padding */
   color: white;
   text-align: left;
-  border: 5px solid blue; /* (For debugging) */
 }
 
 .hero-title {
@@ -177,7 +171,6 @@
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
-  border:5px solid blue;
 }
 
 .hero-subtitle {
@@ -185,7 +178,6 @@
   color: white;
   font-size: 1.2rem;
   line-height: 1.4;
-  border:5px solid blue;
 }
 
 .page-content {
