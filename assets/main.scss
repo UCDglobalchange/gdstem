@@ -172,8 +172,11 @@
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
-  max-width: 800px;  /* Match the wrapper max width */
-  margin: 0 auto 1rem auto;
+  max-width: 1024px;  /* Set the maximum width to 1024px */
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;  /* Padding to prevent content from touching edges */
+  padding-left: 30px;
   border:5px solid black;
 }
 
