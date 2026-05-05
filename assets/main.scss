@@ -69,6 +69,12 @@
   color: #0073e6;  /* Active menu item color */
 }
 
+.navbar .active {
+  background-color: #006400;  /* Dark green background */
+  color: white;  /* White font color */
+  font-weight: bold;  /* Keep the text bold */
+}
+
 /* Flex container for the menu */
 .navbar-menu {
   display: flex;  /* Make the menu horizontal */
