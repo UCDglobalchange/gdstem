@@ -24,6 +24,10 @@ It combines:
 
 ## Model Structure
 
+<img src="{{ site.baseurl }}/assets/images/model-schematic.png"
+     alt="GDSTEM schematic"
+     class="clickable-image">
+     
 ![GDSTEM schematic](assets/images/gdstem-schematic.png)
 
 *Figure 1. Conceptual schematic of the GDSTEM model showing major components and fluxes.*
@@ -32,7 +36,7 @@ It combines:
 GDSTEM simulates carbon storage and fluxes across:
 - Leaves
 - Roots
-- Wood (sapwood and heartwood)
+- Stem (sapwood and heartwood)
 - Soil organic carbon pools
 
 Key fluxes include:
