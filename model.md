@@ -27,8 +27,6 @@ It combines:
 <img src="{{ site.baseurl }}/assets/images/gdstem-schematic.png"
      alt="GDSTEM schematic"
      class="clickable-image">
-     
-![GDSTEM schematic](assets/images/gdstem-schematic.png)
 
 *Figure 1. Conceptual schematic of the GDSTEM model showing major components and fluxes.*
 
@@ -51,9 +49,11 @@ Key fluxes include:
 
 Land-use and land-cover change (LULCC) is a central feature of GDSTEM, which tracks land use history using a cohort approach.
 
-![GDSTEM cohort approach](assets/images/gdstem-cohort-approach.png)
+<img src="{{ site.baseurl }}/assets/images/cohort-approach.png"
+     alt="GDSTEM cohort approach"
+     class="clickable-image">
 
-*Figure 1. Example of how GDSTEM tracks historical land-use change through its cohort approach.*
+*Figure 2. Example of how GDSTEM tracks historical land-use change through its cohort approach.*
 
 The model tracks transitions between:
 - Primary vegetation
