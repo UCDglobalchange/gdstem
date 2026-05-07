@@ -24,7 +24,7 @@ It combines:
 
 ## Model Structure
 
-<img src="{{ site.baseurl }}/assets/images/model-schematic.png"
+<img src="{{ site.baseurl }}/assets/images/gdstem-schematic.png"
      alt="GDSTEM schematic"
      class="clickable-image">
      
