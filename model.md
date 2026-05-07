@@ -50,7 +50,7 @@ Key fluxes include:
 Land-use and land-cover change (LULCC) is a central feature of GDSTEM, which tracks land use history using a cohort approach.
 
 <img src="{{ site.baseurl }}/assets/images/gdstem-cohort-approach.png"
-     alt="GDSTEM cohort approach"
+     alt="GDSTEM cohort approach" width="75%"
      class="clickable-image">
 
 *Figure 2. Example of how GDSTEM tracks historical land-use change through its cohort approach.*
