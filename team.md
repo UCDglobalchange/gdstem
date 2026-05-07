@@ -91,3 +91,14 @@ banner_alt: Cropland in Kansas
     <p>Co-developer of the original TEM</p>
   </div>
 </div>
+
+<div class="team-member">
+  <div class="team-photo">
+    <img src="/gdstem/assets/images/team/tcronin.jpg" alt="Tim Cronin">
+  </div>
+  <div class="team-info">
+    <h3>Tim Cronin</h3>
+    <p>Associate Professor/ MIT</p>
+    <p>Co-developer of TEM-Hydro, the predecessor to GDSTEM</p>
+  </div>
+</div>
