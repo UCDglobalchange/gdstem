@@ -19,7 +19,7 @@ This page lists publications associated with the **Global Dynamical and Structur
 
 ---
 
-## Select publications from the team using GDSTEM or its predecessor
+## Select publications from the team using other versions of TEM
 
 - **Felzer, B. S.** (2025). *Modeling the future carbon sink: Land-use and climate change may offset CO₂ fertilization in the United States*. _Plants, People, Planet_, **7**(3), 763–775. [https://doi.org/10.1002/ppp3.10582](https://doi.org/10.1002/ppp3.10582)
 
