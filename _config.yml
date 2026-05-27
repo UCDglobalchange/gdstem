@@ -16,7 +16,8 @@ plugins:
   - jekyll-sitemap
 
 # SEO settings
-url: "https://ucdglobalchange.github.io/gdstem"  # Your website URL
+url: "https://ucdglobalchange.github.io"
+baseurl: "/gdstem"
 social_image: "/assets/images/banners/home-banner.jpeg"  # Default image for social sharing (LinkedIn and Facebook)
 
 # Enable sitemap for search engine optimization
