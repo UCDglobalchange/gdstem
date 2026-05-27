@@ -6,7 +6,7 @@ banner: /assets/images/banners/model-banner.jpeg
 banner_alt: Savannah
 ---
 
-# Model
+# Model Description and Structure
 
 ---
 
