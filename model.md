@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Model
+title: Model Description and Structure
+description: Learn about the GDSTEM model structure, processes, inputs, outputs, vegetation represented, land-use cohort representation, and simulation framework.
 banner: /assets/images/banners/model-banner.jpeg
 banner_alt: Savannah
 ---
