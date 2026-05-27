@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Legacy
+title: History and Legacy
+description: Explore the history, evolution, predecessor models, major milestones, and scientific legacy that contributed to the development of the GDSTEM terrestrial ecosystem model.
 banner: /assets/images/banners/legacy-banner.jpeg
 banner_alt: Tundra
 ---
