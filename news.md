@@ -6,7 +6,7 @@ banner: /assets/images/banners/news-banner.jpeg
 banner_alt: News
 ---
 
-# News
+# News and Updates
 
 ---
 
