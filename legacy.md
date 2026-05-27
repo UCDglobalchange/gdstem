@@ -6,9 +6,9 @@ banner: /assets/images/banners/legacy-banner.jpeg
 banner_alt: Tundra
 ---
 
-# The History of TEM and Its Legacy
+# History and Legacy
 
-The **Terrestrial Ecosystem Model (TEM)** has played a foundational role in the field of ecosystem modeling and the study of global carbon and nitrogen cycles. Developed in the early 1990s by a team of scientists at the **Ecosystems Center** of the **Marine Biological Laboratory (MBL)**, TEM was designed to simulate the effects of climate change on terrestrial ecosystems. The model has since evolved into one of the most influential tools in Earth system science, influencing the development of **GDSTEM**, one of the evolutionary offshoots of the model.
+GDSTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model is a direct descendant of the **Terrestrial Ecosystem Model (TEM)**, which has played a foundational role in the field of ecosystem modeling and the study of global carbon and nitrogen cycles. Developed in the early 1990s by a team of scientists at the **Ecosystems Center** of the **Marine Biological Laboratory (MBL)**, TEM was designed to simulate the effects of climate change on terrestrial ecosystems. The model has since evolved into one of the most influential tools in Earth system science, influencing the development of **GDSTEM**, one of the evolutionary offshoots of the model.
 
 ## The Origins of TEM (1990s)
 
