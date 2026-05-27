@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Team
+title: Development Team
+description: Meet the scientists, developers, students, and collaborators responsible for the development, maintenance, and application of the GDSTEM terrestrial ecosystem model.
 banner: /assets/images/banners/team-banner.jpeg
 banner_alt: Cropland in Kansas
 ---
