@@ -1,6 +1,7 @@
 ---
 layout: page
-title: News
+title: News and Updates
+description: Read the latest news, model releases, project updates, presentations, workshops, and announcements related to GDSTEM development and applications.
 banner: /assets/images/banners/news-banner.jpeg
 banner_alt: News
 ---
