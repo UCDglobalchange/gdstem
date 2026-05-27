@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publications
+description: Browse the scientific publications describing the development, evaluation, and applications of the GDSTEM terrestrial ecosystem model.
 banner: /assets/images/banners/publications-banner.jpeg
 banner_alt: Temperate forest
 ---
