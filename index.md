@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GDSTEM - Global Dynamical and Structural Terrestrial Ecosystem Model
+title: Home
 banner: /assets/images/banners/home-banner.jpeg
 banner_alt: Tropical forest canopy
 is_home: true
