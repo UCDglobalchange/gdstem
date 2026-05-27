@@ -12,7 +12,7 @@ banner_alt: Savannah
 
 ## Overview
 
-The **Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)** is a
+**GDTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model** is a
 process-based model designed to simulate terrestrial ecosystem dynamics at the
 global scale.
 
@@ -72,7 +72,8 @@ These transitions modify the vegetation structure, trigger disturbance processes
 
 ## Model Code
 
-The source code of GDSTEM used on the Global Carbon Budget 2025 is available on GitHub: <https://github.com/UCDglobalchange/gdstem-trendyv14>
+The GDSTEM source code used in the Global Carbon Budget 2025 simulations is available on GitHub at:
+<https://github.com/UCDglobalchange/gdstem-trendyv14>
 
 ---
 
