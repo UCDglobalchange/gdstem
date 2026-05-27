@@ -6,7 +6,7 @@ banner: /assets/images/banners/team-banner.jpeg
 banner_alt: Cropland in Kansas
 ---
 
-# Team
+# Development Team
 
 ---
 
