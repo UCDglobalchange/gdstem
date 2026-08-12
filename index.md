@@ -13,7 +13,7 @@ The Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM) is a pr
 
 On this website, you will find a “roadmap” of the various features of GDSTEM, the team of developers, the past, current, and future activities focusing on model development and use, the products using the model, and a history of the model.
 
-<img src="{{site.baseurl}}/assets/images/gdstem-schematic-simple.png"
+<img src="/assets/images/gdstem-schematic-simple.png"
      alt="GDSTEM general overview"
      class="clickable-image">
 
