@@ -29,7 +29,7 @@ It combines:
      alt="GDSTEM schematic"
      class="clickable-image">
 
-*Figure 1. Conceptual schematic of the GDSTEM model showing major components and fluxes.*
+*Figure 1. Detailed schematic of the GDSTEM model showing the various pools, fluxes, processes and input.*
 
 
 GDSTEM simulates carbon storage and fluxes across:
