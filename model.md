@@ -16,10 +16,7 @@ banner_alt: Savannah
 process-based model designed to simulate terrestrial ecosystem dynamics at the
 global scale.
 
-It combines:
-- Biogeochemical cycling
-- Vegetation structural dynamics
-- Land-use transitions
+It combines: **biogeochemical cycling**, **vegetation structural dynamics**, **land-use transitions**, and **land management**
 
 ---
 
