@@ -12,11 +12,13 @@ banner_alt: Savannah
 
 ## Overview
 
-**GDTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model** is a
-process-based model designed to simulate terrestrial ecosystem dynamics at the
-global scale.
+**GDTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model** is a process-based model designed to simulate terrestrial ecosystem dynamics at the global scale.
 
-It combines: **biogeochemical cycling**, **vegetation structural dynamics**, **land-use transitions**, and **land management**
+It combines:
+- biogeochemical cycling
+- vegetation structural dynamics
+- land-use transitions
+- land management
 
 ---
 
@@ -31,15 +33,15 @@ It combines: **biogeochemical cycling**, **vegetation structural dynamics**, **l
 
 GDSTEM simulates carbon and nitrogen storage and fluxes across:
 - Leaves
-- Roots
 - Stem (sapwood and heartwood)
+- Roots
 - Soil (organic carbon and nitrogen and inorganic nitrogen)
 
 ---
 
 ## Land-Use Dynamics
 
-Land-use and land-cover change (LULCC) is a central feature of GDSTEM, which tracks land use history using a cohort approach.
+Land-use change (LUC) is a central feature of GDSTEM, which tracks land use history using a cohort approach.
 
 <img src="assets/images/gdstem-cohort-approach.png"
      alt="GDSTEM cohort approach" width="75%"
