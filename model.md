@@ -59,12 +59,13 @@ Land-use and land-cover change (LULCC) is a central feature of GDSTEM, which tra
 The model tracks transitions between:
 - Primary vegetation
 - Secondary vegetation
-- C3 crop
-- C4 crop
-- Perennial crop
+- C3 annual crop
+- C4 annual crop
+- C3 perennial crop
+- C4 perennial crop
 - Pasture
 - Rangeland
-- Urban land
+- Urban
 
 These transitions modify the vegetation structure, trigger disturbance processes, and influence water, carbon, nitrogen, and energy fluxes.
 
