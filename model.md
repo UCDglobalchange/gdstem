@@ -32,17 +32,11 @@ It combines:
 *Figure 1. Detailed schematic of the GDSTEM model showing the various pools, fluxes, processes and input.*
 
 
-GDSTEM simulates carbon storage and fluxes across:
+GDSTEM simulates carbon and nitrogen storage and fluxes across:
 - Leaves
 - Roots
 - Stem (sapwood and heartwood)
-- Soil organic carbon pools
-
-Key fluxes include:
-- Gross Primary Production (GPP)
-- Net Primary Production (NPP)
-- Ecosystem respiration
-- Net Biome Production (NBP)
+- Soil (organic carbon and nitrogen and inorganic nitrogen)
 
 ---
 
