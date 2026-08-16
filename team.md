@@ -19,7 +19,7 @@ banner_alt: Cropland in Kansas
   <div class="team-info">
     <h3>Ben Felzer</h3>
     <p>Associate Professor / Lehigh University</p>
-    <p>Lead developer of TEM-Hydro, the predecessor of GDSTEM</p>
+    <p>Lead developer of TEM-Hydro, the predecessor of GDSTEM, and co-developer of GDSTEM</p>
   </div>
 </div>
 
