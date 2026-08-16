@@ -12,7 +12,7 @@ banner_alt: Savannah
 
 ## Overview
 
-**GDTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model** is a process-based model designed to simulate terrestrial ecosystem dynamics at the global scale.
+**GDSTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model** is a process-based model designed to simulate terrestrial ecosystem dynamics at the global scale.
 
 It combines:
 - biogeochemical cycling
@@ -28,7 +28,7 @@ It combines:
      alt="GDSTEM schematic"
      class="clickable-image">
 
-*Figure 1. Detailed schematic of the GDSTEM model showing the various pools, fluxes, processes and input.*
+*Figure 1. Detailed schematic of the GDSTEM model showing the various pools, fluxes, processes, and inputs.*
 
 
 GDSTEM simulates carbon and nitrogen storage and fluxes across:
