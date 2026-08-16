@@ -41,7 +41,7 @@ GDSTEM explicitly represents transitions among natural vegetation, croplands, ma
 
 ### Global-change applications
 
-GDSTEM is being developed to investigate terrestrial ecosystem responses to interacting environmental drivers, including **climate variability and change, atmospheric CO₂, nitrogen deposition, ozone damage, and land-use change**. GDSTEM simulations also contribute to international assessments of the terrestrial carbon cycle, including the **Global Carbon Budget**.
+GDSTEM is being developed to investigate terrestrial ecosystem responses to interacting environmental drivers, including **climate variability and change, atmospheric CO₂, nitrogen deposition, tropospheric ozone, and land-use change**. GDSTEM simulations also contribute to international assessments of the terrestrial carbon cycle, including the **Global Carbon Budget**.
 
 ---
 
