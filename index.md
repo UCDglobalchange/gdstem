@@ -5,6 +5,7 @@ description: "GDSTEM is the Global Dynamical and Structural Terrestrial Ecosyste
 banner: /assets/images/banners/home-banner.jpeg
 banner_alt: Tropical forest canopy
 is_home: true
+hero_title: "GDSTEM | The Global Dynamical and Structural Terrestrial Ecosystem Model"
 hero_subtitle: "A process-based terrestrial ecosystem model for investigating how climate, land use, and ecosystem history shape carbon, nitrogen, water, and vegetation dynamics."
 ---
 
