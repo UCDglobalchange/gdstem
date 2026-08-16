@@ -1,68 +1,66 @@
 ---
 layout: page
 title: About GDSTEM
-description: Learn about the scientific lineage, development, and collaborative framework of the Global Dynamical and Structural Terrestrial Ecosystem Model.
+description: Learn about the history, scientific lineage, and development of the Global Dynamical and Structural Terrestrial Ecosystem Model.
 banner: /assets/images/banners/legacy-banner.jpeg
 banner_alt: Tundra
 ---
 
 # About GDSTEM
 
-The **Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)** is a process-based terrestrial ecosystem model developed to investigate interactions among terrestrial ecosystem structure, biogeochemistry, environmental change, and human land use.
+The **Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)** is the latest generation in a family of process-based terrestrial ecosystem models developed over more than three decades to investigate interactions among terrestrial ecosystems, biogeochemical cycles, climate, and human activities.
 
-GDSTEM is under active development by a collaborative team of ecosystem scientists and model developers. The model builds on more than three decades of development and application of the **Terrestrial Ecosystem Model (TEM)** and its successors.
+GDSTEM builds directly on the scientific foundations of the **Terrestrial Ecosystem Model (TEM)** and **TEM-Hydro**, while extending this modeling framework for contemporary regional and global applications.
 
 ---
 
 ## Scientific lineage
 
-GDSTEM is part of a family of terrestrial ecosystem models whose development began with the **Terrestrial Ecosystem Model (TEM)** in the early 1990s.
+### The Terrestrial Ecosystem Model
 
-TEM was among the early process-based terrestrial ecosystem models to explicitly represent interactions between the carbon and nitrogen cycles. Early applications examined net primary productivity at regional and global scales, and subsequent versions expanded the model to investigate transient responses to climate and atmospheric CO₂, land-use change, and the effects of tropospheric ozone on vegetation.
+The scientific lineage of GDSTEM began with the **Terrestrial Ecosystem Model (TEM)** in the early 1990s.
 
-The land-use framework developed within TEM introduced the representation of land-use transitions and vegetation cohorts that forms the foundation of the land-use approach used in GDSTEM today.
+TEM was developed at the Ecosystems Center of the Marine Biological Laboratory through the work of **Jerry Melillo, David Kicklighter, Dave McGuire**, and their collaborators. Their work established the scientific and computational foundation on which GDSTEM is built.
 
-Over subsequent decades, the TEM family of models was extended and applied to a broad range of questions involving terrestrial biogeochemistry, climate change, atmospheric chemistry, hydrology, land-use change, wetlands, methane emissions, fire, and soil dynamics.
+An important feature of TEM was its process-based representation of interactions between the terrestrial **carbon and nitrogen cycles**. Early versions were used to investigate net primary productivity at regional and global scales and were among the early terrestrial ecosystem models to explicitly consider the influence of nitrogen limitation on ecosystem carbon dynamics.
+
+Over subsequent generations, TEM was expanded to simulate transient ecosystem responses to climate and atmospheric CO₂, land-use change, and the effects of tropospheric ozone on vegetation. The development of a land-use transition framework also provided the foundation for the cohort-based representation of ecosystem history used by GDSTEM today.
+
+The contributions of **Jerry Melillo, David Kicklighter, and Dave McGuire** remain fundamental to the scientific framework and continued development of the TEM family of models.
 
 ---
 
 ## From TEM to TEM-Hydro
 
-**TEM-Hydro** extended the TEM framework by introducing a more detailed representation of vegetation structure and ecosystem hydrology.
+**TEM-Hydro** represented a major extension of the TEM framework and was developed under the leadership of **Ben Felzer**, together with **Tim Cronin** and collaborators.
 
-Vegetation carbon was separated among structural components including **leaves, sapwood, heartwood, roots, and seed storage**, allowing the model to more explicitly represent the allocation and turnover of vegetation carbon.
+TEM-Hydro introduced a more detailed representation of **vegetation structure**, separating vegetation carbon among components such as leaves, sapwood, heartwood, roots, and seed storage. It also introduced a more physically based representation of ecosystem hydrology and strengthened the coupling among **carbon, nitrogen, and water dynamics**.
 
-TEM-Hydro also introduced a more physically based treatment of hydrological processes, strengthening the representation of interactions among **carbon, nitrogen, and water cycling**.
-
-These developments provided the scientific and computational foundation for the subsequent development of GDSTEM.
+These developments provided the direct scientific and computational foundation from which GDSTEM was developed.
 
 ---
 
 ## From TEM-Hydro to GDSTEM
 
-**GDSTEM** builds directly on TEM-Hydro while adapting and extending the model for contemporary regional and global applications.
+**GDSTEM** builds directly on TEM-Hydro while extending the model for contemporary global terrestrial ecosystem and carbon-cycle research.
 
-A major development is the incorporation of the **open nitrogen-cycle formulation developed for TEM6.0**. This framework represents important nitrogen inputs and losses, including atmospheric nitrogen deposition, biological nitrogen fixation, nitrogen fertilization, dissolved inorganic and organic nitrogen losses, and denitrification. The nitrogen-cycle framework is applied across both natural and managed ecosystems.
+Major developments include the incorporation of the **TEM6.0 open nitrogen-cycle framework**, expanded representations of land use and land management, updated global environmental forcing datasets, calibration of plant functional types across global environmental conditions, and simulation and evaluation frameworks designed for global applications.
 
-GDSTEM also expands the representation of **land use and land management**. The model tracks land-use transitions and ecosystem history using vegetation cohorts and represents natural vegetation, secondary vegetation, annual and perennial crops, pasture, rangeland, and urban systems. Management processes include fertilization, irrigation, crop harvest and establishment, grazing, and mowing.
+GDSTEM retains the process-based carbon, nitrogen, water, vegetation, and land-use foundations developed through TEM and TEM-Hydro while providing a framework designed to investigate the interacting effects of climate, atmospheric CO₂, nitrogen deposition, tropospheric ozone, land use, land management, and ecosystem history.
 
-Another major development is the calibration of individual **plant functional types (PFTs)** across the range of global climate and environmental conditions in which they occur. GDSTEM also uses contemporary global environmental datasets and simulation workflows designed for applications to the global terrestrial carbon cycle.
-
-Together, these developments provide a framework for studying how climate, atmospheric CO₂, nitrogen deposition, tropospheric ozone, land use, land management, and ecosystem history interact to shape terrestrial carbon, nitrogen, and water dynamics.
+More detailed information about the current model structure and processes is available on the [Model](model.html) page.
 
 ---
 
 ## GDSTEM today
 
-GDSTEM is currently undergoing continued **development, calibration, and evaluation**.
+GDSTEM is under active development, calibration, and evaluation by a collaborative team of ecosystem scientists, model developers, and students.
 
-Current efforts include improvements to model processes, systematic benchmarking and calibration, refinement of managed and natural vegetation types, and expanded representation of ecosystem disturbance. The current version does not include wildfire or wetlands, although a **wildfire module is under development**.
+The model is being developed for regional and global terrestrial ecosystem applications and has contributed simulations to international assessments of the terrestrial carbon cycle, including the **Global Carbon Budget**.
 
-GDSTEM is being applied to global terrestrial carbon-cycle research and has contributed simulations to international carbon-cycle assessments, including the **Global Carbon Budget**.
+A comprehensive **model description and evaluation manuscript is currently in preparation**. Current development also includes continued improvements to model processes and the development of new ecosystem disturbance capabilities.
 
-A comprehensive **model description and evaluation manuscript is currently in preparation**. The model is being evaluated using global benchmarking datasets and site-level observations, and additional scientific results and model documentation will be added to this website as that work progresses.
-
-See the [Model](model.html) page for an overview of model structure, [Development](development.html) for current development activities, [Publications](publications.html) for research associated with GDSTEM and its scientific lineage, and [Team](team.html) for the people contributing to the model.
+See the [Development Team](team.html) for the scientists and students currently contributing to GDSTEM and the [Publications](publications.html) page for research associated with GDSTEM and its scientific lineage.
 
 ---
 
