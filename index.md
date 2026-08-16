@@ -11,11 +11,11 @@ hero_subtitle: "A process-based terrestrial ecosystem model for investigating ho
 
 ## Overview
 
-The **Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)** is a process-based terrestrial ecosystem model designed to investigate how environmental change and human activities influence the structure and biogeochemistry of terrestrial ecosystems.
+The **Global Dynamical and Structural Terrestrial Ecosystem Model (GDSTEM)** is a process-based terrestrial ecosystem model designed to investigate how environmental change and human activities influence terrestrial ecosystems and the global carbon cycle.
 
-GDSTEM couples the dynamics of **carbon, nitrogen, and water** with an explicit representation of **vegetation structure and land-use history**. A cohort-based framework allows the model to represent ecosystems with different disturbance and land-use histories within the same landscape and to track their evolution through time.
+GDSTEM couples **carbon, nitrogen, and water cycling** with explicit representations of **vegetation structure, land-use history, and land management**. Its cohort-based framework allows ecosystems with different ages and disturbance histories to coexist within the same landscape and evolve through time.
 
-GDSTEM is designed for applications ranging from regional ecosystem studies to global simulations of terrestrial ecosystem dynamics. The model normally operates at a monthly time step and a 0.5° latitude/longitude spatial resolution, but it has also been applied at finer temporal and spatial scales.
+The model is designed for applications ranging from regional ecosystem studies to global simulations of terrestrial ecosystem dynamics.
 
 <img src="assets/images/gdstem-schematic-simple.png"
      alt="Conceptual overview of GDSTEM"
@@ -29,15 +29,15 @@ GDSTEM is designed for applications ranging from regional ecosystem studies to g
 
 ### Ecosystem structure and history
 
-GDSTEM represents vegetation using **cohorts** that retain information about ecosystem age and land-use history. This allows the model to represent ecological legacies that can persist long after a disturbance or land-use transition has occurred.
+GDSTEM represents vegetation using cohorts that retain information about ecosystem age and land-use history, providing a framework for examining the long-term ecological legacies of disturbance and land-use change.
 
-### Coupled carbon, nitrogen, and water dynamics
+### Coupled ecosystem processes
 
-The model represents interactions among vegetation productivity, carbon allocation, soil carbon and nitrogen cycling, nutrient availability, and ecosystem hydrology. These coupled processes determine how terrestrial ecosystems respond to changes in environmental conditions.
+Carbon, nitrogen, water, and vegetation dynamics are represented within a coupled process-based framework, allowing ecosystem responses to environmental change to emerge from interactions among biogeochemical and hydrological processes.
 
-### Land-use and land-management dynamics
+### Land use and management
 
-GDSTEM explicitly represents transitions among natural vegetation, croplands, managed grasslands, and urban land. Managed land types distinguish annual and perennial crops, pasture, and rangeland, allowing differences in vegetation characteristics and land management to influence ecosystem dynamics.
+GDSTEM represents historical transitions among natural and managed ecosystems together with land-management processes. This allows differences in land use, management, and ecosystem history to influence terrestrial carbon, nitrogen, and water dynamics.
 
 ### Global-change applications
 
@@ -47,8 +47,8 @@ GDSTEM is being developed to investigate terrestrial ecosystem responses to inte
 
 ## Active development
 
-GDSTEM is under active **development, calibration, and evaluation**. Current work focuses on improving model performance, expanding the representation of ecosystem disturbance, and developing systematic approaches for model calibration and benchmarking.
+GDSTEM is under active **development, calibration, and evaluation**. Current efforts include continued model improvement, global calibration and benchmarking, and development of new ecosystem disturbance capabilities.
 
-A comprehensive **model description and evaluation manuscript is currently in preparation**. Additional scientific results and model documentation will be added to this website as that work progresses.
+A comprehensive **model description and evaluation manuscript is currently in preparation**. Scientific results, documentation, and the current model source code will be made available as this work progresses.
 
-Learn more about the [Model](model.html), meet the [Development Team](team.html), or explore [Publications](publications.html) associated with GDSTEM and its scientific lineage.
+Learn more about the [Model](model.html), explore [Publications](publications.html), meet the [Development Team](team.html), or read about the model's [history and scientific lineage](about.html).
