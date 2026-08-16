@@ -8,7 +8,7 @@ banner_alt: Tundra
 
 # History and Legacy
 
-GDSTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model is a direct descendant of the **Terrestrial Ecosystem Model (TEM)**, which has played a foundational role in the field of ecosystem modeling and the study of global carbon and nitrogen cycles. Developed in the early 1990s by a team of scientists at the **Ecosystems Center** of the **Marine Biological Laboratory (MBL)**, TEM was designed to simulate the effects of climate change on terrestrial ecosystems. The model has since evolved into one of the most influential tools in Earth system science, influencing the development of **GDSTEM**, one of the evolutionary offshoots of the model.
+GDSTEM, the Global Dynamical and Structural Terrestrial Ecosystem Model is a direct descendant of the **Terrestrial Ecosystem Model (TEM)**, which has played a foundational role in the field of ecosystem modeling and the study of global carbon and nitrogen cycles. Developed in the early 1990s by a team of scientists at the **Ecosystems Center** of the **Marine Biological Laboratory (MBL)**, TEM was designed to simulate the effects of climate change on terrestrial ecosystems.
 
 ## The Origins of TEM (1990s)
 
@@ -31,7 +31,7 @@ TEM also integrated **carbon and nitrogen cycles**, which was a significant adva
 
 Over the years, TEM underwent several modifications to include more complex interactions, such as **methane fluxes**, and to **integrate with Earth system models** that coupled terrestrial, atmospheric, and oceanic processes. TEM’s influence continues to this day in the form of **GDSTEM**, a **successor model** that builds upon the foundations of TEM. GDSTEM incorporates **new data**, **increased complexity in the representation of vegetation and soil**, **improved representation of land management**, **new environmental drivers**, and **refined carbon and nitrogen cycle modeling** to address current global change challenges.
 
-Today, GDSTEM is used to predict the **long-term impacts of global environmental change**, **of past, present, and future land-use decisions**, and the role of terrestrial ecosystems in the **global carbon budget**. It remains one of the most important models for studying the future of ecosystems and informing **climate policy** and **management strategies**.
+Today, GDSTEM is used to predict the **long-term impacts of global environmental change**, **of past, present, and future land-use decisions**, and the role of terrestrial ecosystems in the **global carbon budget**.
 
 ## TEM’s Legacy and Its Continued Impact
 
