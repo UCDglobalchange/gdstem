@@ -30,7 +30,7 @@ banner_alt: Cropland in Kansas
   <div class="team-info">
     <h3>Erwan Monier</h3>
     <p>Associate Professor / University of California, Davis</p>
-    <p>Co-develop of GDSTEM, focusing on the development of toolkits for global simulation, benchmarking, and automated calibration</p>
+    <p>Co-developer of GDSTEM, focusing on the development of toolkits for global simulation, benchmarking, and automated calibration</p>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ banner_alt: Cropland in Kansas
   </div>
   <div class="team-info">
     <h3>David Kicklighter</h3>
-    <p>Research Associate/ Ecosystems Center, Marine Biological Laboratory</p>
+    <p>Research Associate / Ecosystems Center, Marine Biological Laboratory</p>
     <p>Co-developer of the original TEM</p>
   </div>
 </div>
@@ -99,7 +99,7 @@ banner_alt: Cropland in Kansas
   </div>
   <div class="team-info">
     <h3>Tim Cronin</h3>
-    <p>Associate Professor/ MIT</p>
+    <p>Associate Professor / MIT</p>
     <p>Co-developer of TEM-Hydro, the predecessor to GDSTEM</p>
   </div>
 </div>
