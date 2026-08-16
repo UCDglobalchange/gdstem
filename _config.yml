@@ -5,10 +5,10 @@ theme: minima
 
 header_pages:
   - index.md
-  - news.md
   - model.md
-  - team.md
   - publications.md
+  - team.md
+  - news.md
   - legacy.md
 
 plugins:
