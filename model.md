@@ -66,7 +66,7 @@ These transitions modify the vegetation structure, trigger disturbance processes
 
 ## Model Code
 
-GDSTEM is under active development. The current development version includes substantial advances beyond the version used for the Global Carbon Budget 2025 simulations. A public release of the current GDSTEM source code will be made available as model development and evaluation progress.
+GDSTEM is under active development. A public release of the current model source code is planned following completion of the ongoing model development, calibration, and evaluation.
 
 ---
 
