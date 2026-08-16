@@ -37,6 +37,9 @@
 
 /* Align navbar title (GDSTEM) to match the wrapper */
 .navbar-title a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   color: #000;  /* Ensure GDSTEM title is always black */
   font-weight: bold;  /* Ensure GDSTEM title is bold */
   font-size: 1.6rem;  /* Set a reasonable font size */
@@ -47,6 +50,13 @@
 .navbar-title a:hover {
   color: #000;  /* GDSTEM title stays black on hover */
   text-decoration: none;  /* Ensure no underline on hover */
+}
+
+.navbar-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 /* Make all menu items bold */
