@@ -12,7 +12,7 @@ banner_alt: News
 
 ## New Publication: *Global Carbon Budget 2025*
 
-The **Global Carbon Budget 2025**, which utilizes GDSTEM for carbon cycle projections, is now published. The article discusses the latest estimates of the global carbon budget and, among others, the contributions from land‑use change and from environmental changes. [Read the paper](https://doi.org/10.5194/essd-18-3211-2026)
+The **Global Carbon Budget 2025**, which includes simulations from GDSTEM as part of its assessment of the global carbon budget, is now published. The article discusses the latest estimates of the global carbon budget and, among others, the contributions from land‑use change and from environmental changes. [Read the paper](https://doi.org/10.5194/essd-18-3211-2026)
 
 ---
 
