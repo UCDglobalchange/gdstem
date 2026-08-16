@@ -1,8 +1,46 @@
-  <!-- footer.html -->
-  <div id="lightbox" class="lightbox">
-    <span class="lightbox-close">&times;</span>
-    <img class="lightbox-content" id="lightbox-img"> 
+<!-- _includes/footer.html -->
+
+<footer class="site-footer">
+  <div class="wrapper footer-wrapper">
+
+    <div class="footer-project">
+      <strong>GDSTEM</strong>
+      <p>
+        Global Dynamical and Structural Terrestrial Ecosystem Model
+      </p>
+      <p class="footer-description">
+        A process-based model of terrestrial carbon, nitrogen, water,
+        vegetation structure, and land-use dynamics.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <a href="{{ site.baseurl }}/model.html">Model</a>
+      <a href="{{ site.baseurl }}/publications.html">Publications</a>
+      <a href="{{ site.baseurl }}/team.html">Team</a>
+      <a href="{{ site.baseurl }}/about.html">About</a>
+    </div>
+
+    <div class="footer-meta">
+      <p>
+        Developed by researchers at the University of California, Davis,
+        Lehigh University, and collaborating institutions.
+      </p>
+      <p>
+        &copy; {{ site.time | date: "%Y" }} GDSTEM development team
+      </p>
+    </div>
+
   </div>
+</footer>
+
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
 
 <script type="application/ld+json">
 {
@@ -11,10 +49,9 @@
   "name": "GDSTEM",
   "alternateName": "Global Dynamical and Structural Terrestrial Ecosystem Model",
   "url": "https://ucdglobalchange.github.io/gdstem/",
-  "codeRepository": "https://github.com/UCDglobalchange/gdstem",
   "author": {
     "@type": "Organization",
-    "name": "UC Davis Global Environmental Change Lab"
+    "name": "GDSTEM Development Team"
   },
   "publisher": {
     "@type": "Organization",
@@ -23,6 +60,7 @@
   "programmingLanguage": "C++"
 }
 </script>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
