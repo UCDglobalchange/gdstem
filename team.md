@@ -58,7 +58,7 @@ banner_alt: Cropland in Kansas
 
 ---
 
-## Notable past developers
+## Foundational contributors to the TEM model lineage
 
 <div class="team-member">
   <div class="team-photo">
